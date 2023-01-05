@@ -6,11 +6,11 @@ This application is built with the Angular framework as the frontend, and it has
 
 To run the project successfully, follow the steps below:
 
-Step 1: Install the node modules with the command: 
+**Step 1:** Install the node modules with the command: 
 
 `npm install`
 
-Step 2: Start the Angular project with the command: 
+**Step 2:** Start the Angular project with the command: 
 
 `ng serve`
 
@@ -18,7 +18,7 @@ Step 2: Start the Angular project with the command:
 
 `sudo npm link @angular/cli`
 
-Step 3: Run the JSON server in another terminal with the command: 
+**Step 3:** Run the JSON server in another terminal with the command: 
 
 `json-server --watch db.json`
 
@@ -29,6 +29,6 @@ Step 3: Run the JSON server in another terminal with the command:
 The application should be functional now.
 
 
-Step 4: Perform the functional testing with Cypress by running the command in another terminal: 
+**Step 4:** Perform the functional testing with Cypress by running the command in another terminal: 
 
 `npx cypress open`
