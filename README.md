@@ -1,27 +1,34 @@
-# AngularEmsProject
+# Angular App with JSON Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+This application is built with the Angular framework as the frontend, and it has pages for listing and adding employees, as well as updating employee details. The json-server serves as the backend, and there are testscripts written in Cypress.
 
-## Development server
+###### Tools required: Node v17,  Angular CLI, json-server, and Cypress
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run the project successfully, follow the steps below:
 
-## Code scaffolding
+Step 1: Install the node modules with the command: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`npm install`
 
-## Build
+Step 2: Start the Angular project with the command: 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`ng serve`
 
-## Running unit tests
+> **Note:** If you get the ng not found error at this step, run the following command and try again: 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`sudo npm link @angular/cli`
 
-## Running end-to-end tests
+Step 3: Run the JSON server in another terminal with the command: 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`json-server --watch db.json`
 
-## Further help
+> **Note:** If you get the json-server not found error, run the following command and try again: 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`sudo npm instal -g json-server`
+
+The application should be functional now.
+
+
+Step 4: Perform the functional testing with Cypress by running the command in another terminal: 
+
+`npx cypress open`
