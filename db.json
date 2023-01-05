@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Mohammed Jawad",
+      "last_name": "Pasha",
+      "email": "pjawad@gmail.com"
+    },
+    {
+      "id": 2,
+      "first_name": "James",
+      "last_name": "bond",
+      "email": "james@gmail.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Anna",
+      "last_name": "Elie",
+      "email": "anna.elie@example.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Junaid",
+      "last_name": "Pasha",
+      "email": "Junaid@gmail.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Mike",
+      "last_name": "tyson",
+      "email": "mike@gmail.com"
+    },
+    {
+      "id": 6,
+      "first_name": "Fionna",
+      "last_name": "Flynn",
+      "email": "Fylnn@gmail.com"
+    }
+  ]
+}
